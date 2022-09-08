@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  ashuapp1:
+    image: vikasapp:v1
+    build: .
+    container_name: vikasc1
+    ports:
+      - "3456:80"
